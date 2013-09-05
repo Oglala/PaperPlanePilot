@@ -1,0 +1,20 @@
+.aktivno{
+	z-index:123;
+}
+
+.poslednje_aktivno{
+	z-index:3;
+}
+.naslov{
+	position:absolute;
+	bottom:0px;left:0px;right:0px;
+	background:rgba(0,0,0,0.5);
+	color:white;
+	//opacity:0.5;
+	height:50px;
+	padding-left:20px;
+	padding-top:10px;
+	font-size:20px;
+	overflow:hidden;
+	padding-right:5px;
+}

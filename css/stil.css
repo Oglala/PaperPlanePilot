@@ -1,0 +1,139 @@
+body{margin:0;font-family: Arial, Helvetica, sans-serif;background-color:/*#eeeeee;/*#b9c99f #e4e3d5;*/}
+
+/* dobra nijansa zelene #a2b480*/
+
+#meni{
+	background-color:#636365;
+	height:40px;
+	padding-left:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+	/*border-radius:5px;*/
+}
+
+#ceona_linija{
+	height:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	width:950px;
+	border-bottom:1px solid /*#636365*/ #a2b480;
+}
+
+#zaglavlje{
+	/*background-color:#c98344;*/
+	height:120px;
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+	text-align:center;
+}
+
+#zaglavlje img{
+	float:right;
+	margin-right:20px;
+	height:110px;
+	opacity:0.7;
+}
+
+#zaglavlje span{
+	display:inline-block;
+	margin-top:30px;
+	margin-left:560px;
+	font-size:80px;
+	color:#a2b480;
+}
+
+#futer{
+	height:150px;
+	bottom:0px;
+	border-top:1px solid /*#636365*/ #a2b480;
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+	//background:#636365;
+}
+
+#futer IMG{
+	width:120px;
+	position:relative;
+	left:50%;
+	margin-left:-60px;
+	top:40px;
+	opacity:0.2;
+}
+
+#futer IMG:hover{
+	opacity:0.3;
+	cursor:pointer;
+}
+
+#sadrzaj{
+	min-height:300px;
+	padding:5px;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+}
+
+#sektor_drugi{
+	background:#e5e5e5;
+}
+
+#sektor_cetvrti{
+	//background:#e5e5e5;
+}
+
+
+.stavka_menija{
+	color:#e5e5e5;
+	font-size:20px;
+	margin-left:25px;
+	display: inline-block;
+	margin-top:10px;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.stavka_menija:hover{
+	color:#a2b480/*white*/;
+}
+
+.stavka_nalog_menija{
+	color:#636365;
+	text-decoration:none;
+	font-size:14px;
+	margin-right:15px;
+}
+
+.stavka_nalog_menija:hover{
+	//color:black;
+	text-decoration:underline;
+}
+
+.sektor{
+	width:100%;
+}
+
+.flevo{
+	float:left;
+}
+
+.fdesno{
+	float:right;
+}
+
+.linkovi{
+	text-decoration:none;
+	color:gray;
+}
+.linkovi:hover{
+	color:#a2b480;
+}
+
+.labele{
+	color:#a2b480;
+	font-weight:bold;
+}
